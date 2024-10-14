@@ -5,7 +5,7 @@ import { tour } from "../data";
 const Tours = () => {
   return (
     <section className="section" id="tours">
-      <Title title={"featured"} subTitle={"tours"} />
+      <Title title={"Exciting"} subTitle={"tours"} />
       <div className="section-center featured-center">
         {tour.map((data) => {
           return <Tourcard data={data} />;
